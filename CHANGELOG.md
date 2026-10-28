@@ -16,18 +16,33 @@ Minecraft 26.3, 26.2, 1.21.11
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 26.2 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
 
 ## 1.0.21 — 2026-10-24
 
 Minecraft 26.3, 26.2, 1.21.11
 
+The first 26.2 build since **1.0.6** — it carries everything released for 26.3 in 1.0.10–1.0.21. The highlights:
+
+#### New
+- **Entities from the schematic:** armor stands, cushions, item frames (with item and rotation), paintings, end crystals and minecarts.
+- **Finishing plants:** vine tips trimmed with shears, glow berries added with bone meal, shelf mushrooms grown. Powered shelves filled from the schematic.
+- **Iron guards:** *Block placing off the schematic* and *Block placing the wrong block*, with toggle keys.
+- **Hide blocks without support** and **Support from the next layer**; **Give up on cells the server refuses**.
+- Corner stairs connect the right way, snow layers from any side, pumpkins carved to match.
+- **Look: Aell UI, Vanilla or Vanilla+** for the settings window; chat messages are off by default.
+
 #### Fixed
-- fix — **Easy Place did not place the invisible Light block.** A Light block has no outline unless the Light item is in your hand, so the aim went straight through the hologram and no click happened at all. Light cells are now found, and Easy Place takes the Light item of **exactly the level the schematic wants** (it used to put level 15 where 7 was needed). No item of that level in the inventory — the cell is skipped instead of getting a wrong level. In creative the right level is picked by itself.
+- fix — observers, pistons, dispensers, droppers and barrels face the way the schematic says.
+- fix — redstone dust dots are no longer placed as crosses.
+- fix — the second half of a slab is placed again.
+- fix — patterned banners, decorated pots and heads with a name are taken from the inventory; blocks with item data no longer wait until you place one by hand.
+- fix — fast building on servers no longer places the wrong block; cushions on deep snow, candles, turtle eggs, sea pickles, petals, curved rail rings and cauldron filling work.
+- fix — the invisible Light block is placed, with exactly the right level.
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 26.2 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
 
 ## 1.0.20 — 2026-10-22
 
@@ -39,7 +54,7 @@ Minecraft 26.3, 1.21.11
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 1.21.11 · Fabric Loader · Fabric API · malilib 0.27.20 · Litematica 0.26.16 · Java 21
 
 ## 1.0.19 — 2026-10-13
 

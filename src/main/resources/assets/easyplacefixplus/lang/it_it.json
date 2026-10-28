@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "«Non scavare ciò che non serve» è disattivato",
   "easyplacefixplus.ui.gate.easy_place_off": "la correzione è disattivata",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place è disattivato in Litematica stessa: questa mod si limita a correggere i suoi clic, quindi per ora non c’è nulla da fare",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Corregge il piazzamento dei blocchi in Easy Place di Litematica: lastre, scale, tronchi, binari, bauli doppi e leve vengono piazzati nello stato mostrato nello schematic, i piazzamenti sbagliati vengono saltati.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Corregge il piazzamento dei blocchi in Easy Place di Litematica: lastre, scale, tronchi, binari, bauli doppi e leve vengono piazzati nello stato mostrato nello schematic, i piazzamenti sbagliati vengono saltati."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Corregge il piazzamento errato dei blocchi in Easy Place di Litematica e lo estende — senza opzioni cheat. I blocchi si posano esattamente come nello schema: lastre, scale, tronchi, binari, casse doppie, leve. Ciò che verrebbe piazzato male viene saltato; ciò che il piazzamento non può fare si completa con un clic di uno strumento dall'inventario.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Corregge il piazzamento errato dei blocchi in Easy Place — senza opzioni cheat."
 }

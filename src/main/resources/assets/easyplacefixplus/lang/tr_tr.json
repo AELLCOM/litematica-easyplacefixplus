@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "\"Yanlış şeyi kazma\" kapalı",
   "easyplacefixplus.ui.gate.easy_place_off": "düzeltme kapalı",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place, Litematica'nın kendisinde kapalı — bu mod yalnızca onun tıklamalarını düzeltir, dolayısıyla şimdilik yapacak bir şey yok",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Litematica'nın Easy Place özelliğinde blok yerleştirmeyi düzeltir: yarım bloklar, merdivenler, kütükler, raylar, çift sandıklar ve kollar şematikte gösterilen durumda yerleştirilir, yanlış yerleştirmeler atlanır.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Litematica'nın Easy Place özelliğinde blok yerleştirmeyi düzeltir: yarım bloklar, merdivenler, kütükler, raylar, çift sandıklar ve kollar şematikte gösterilen durumda yerleştirilir, yanlış yerleştirmeler atlanır."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Litematica Easy Place'teki hatalı blok yerleşimini düzeltir ve onu genişletir — hile seçenekleri yok. Bloklar şemada çizildiği gibi oturur: basamaklar, merdivenler, kütükler, raylar, çift sandıklar, kollar. Yanlış oturacaklar atlanır; yerleştirmeyle bitmeyenler envanterdeki aletle tek tıkla tamamlanır.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Easy Place'teki hatalı blok yerleşimini düzeltir — hile seçenekleri yok."
 }

@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "«Не капаць лішняга» выключана",
   "easyplacefixplus.ui.gate.easy_place_off": "выпраўленне выключана",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place выключаны ў самой Litematica — мод толькі правіць яе клікі, таму рабіць пакуль няма чаго",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Выпраўляе ўсталёўку блокаў у Easy Place з Litematica: пліты, прыступкі, бервяно, рэйкі, падвойныя куфры і рычагі ставяцца ў такім стане, як у схеме, няправільныя ўсталёўкі прапускаюцца.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Выпраўляе ўсталёўку блокаў у Easy Place з Litematica: пліты, прыступкі, бервяно, рэйкі, падвойныя куфры і рычагі ставяцца ў такім стане, як у схеме, няправільныя ўсталёўкі прапускаюцца."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Фіксіць няправільную ўстаноўку блокаў у Easy Place з Litematica і пашырае яго магчымасці — без чытарскіх опцый. Блокі становяцца роўна як у схеме: пліты, прыступкі, бярвёны, рэйкі, падвойныя куфры, рычагі. Што стане няправільна — прапускаецца, што не ставіцца клікам — даводзіцца інструментам з інвентару.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Фіксіць няправільную ўстаноўку блокаў у Easy Place — без чытарскіх опцый."
 }

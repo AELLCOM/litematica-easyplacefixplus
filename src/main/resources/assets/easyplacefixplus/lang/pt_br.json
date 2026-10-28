@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "\"Não cavar o que não deve\" está desligado",
   "easyplacefixplus.ui.gate.easy_place_off": "a correção está desligada",
   "easyplacefixplus.ui.status.litematica_off": "O Easy Place está desligado no próprio Litematica — este mod só corrige os cliques dele, então ainda não há o que fazer",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Corrige a colocação de blocos no Easy Place do Litematica: lajes, escadas, troncos, trilhos, baús duplos e alavancas são colocados no estado mostrado no esquema, e colocações erradas são ignoradas.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Corrige a colocação de blocos no Easy Place do Litematica: lajes, escadas, troncos, trilhos, baús duplos e alavancas são colocados no estado mostrado no esquema, e colocações erradas são ignoradas."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Corrige a colocação errada de blocos no Easy Place da Litematica e o expande — sem opções de trapaça. Os blocos ficam exatamente como no esquema: lajes, escadas, troncos, trilhos, baús duplos, alavancas. O que ficaria errado é pulado; o que a colocação não resolve é concluído com um clique de uma ferramenta do inventário.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Corrige a colocação errada de blocos no Easy Place — sem opções de trapaça."
 }

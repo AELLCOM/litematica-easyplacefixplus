@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "« Ne pas creuser ce qu'il ne faut pas » est désactivé",
   "easyplacefixplus.ui.gate.easy_place_off": "le correctif est désactivé",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place est désactivé dans Litematica elle-même — ce mod ne fait que corriger ses clics, il n’y a donc rien à faire pour l’instant",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Corrige la pose des blocs dans Easy Place de Litematica : les dalles, escaliers, bûches, rails, coffres doubles et leviers sont posés dans l'état indiqué par le schéma, les mauvaises poses sont ignorées.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Corrige la pose des blocs dans Easy Place de Litematica : les dalles, escaliers, bûches, rails, coffres doubles et leviers sont posés dans l'état indiqué par le schéma, les mauvaises poses sont ignorées."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Corrige le placement incorrect des blocs dans Easy Place de Litematica et l'étend — sans options de triche. Les blocs se posent exactement comme dans le schéma : dalles, escaliers, bûches, rails, doubles coffres, leviers. Ce qui se poserait mal est ignoré ; ce que la pose ne peut pas finir se termine d'un clic avec un outil de l'inventaire.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Corrige le placement incorrect des blocs dans Easy Place — sans options de triche."
 }

@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "\"잘못된 것을 파지 않기\" 꺼짐",
   "easyplacefixplus.ui.gate.easy_place_off": "교정이 꺼짐",
   "easyplacefixplus.ui.status.litematica_off": "Litematica에서 Easy Place가 꺼져 있습니다 — 이 모드는 그 클릭을 교정할 뿐이라 지금은 할 일이 없습니다",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Litematica의 Easy Place 블록 설치를 수정합니다. 반블록, 계단, 통나무, 레일, 대형 상자, 레버는 스키매틱에 표시된 상태로 설치되며, 잘못된 설치는 건너뜁니다.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Litematica의 Easy Place 블록 설치를 수정합니다. 반블록, 계단, 통나무, 레일, 대형 상자, 레버는 스키매틱에 표시된 상태로 설치되며, 잘못된 설치는 건너뜁니다."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Litematica Easy Place의 잘못된 블록 설치를 고치고 기능을 확장합니다 — 치트 옵션 없음. 블록이 설계도 그대로 놓입니다: 반 블록, 계단, 원목, 레일, 겹 상자, 레버. 잘못 놓일 블록은 건너뛰고, 설치만으로 안 되는 것은 인벤토리의 도구로 한 번 클릭해 마무리합니다.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Easy Place의 잘못된 블록 설치를 고칩니다 — 치트 옵션 없음."
 }

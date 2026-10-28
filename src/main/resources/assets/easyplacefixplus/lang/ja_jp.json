@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "「余計なものを掘らない」がオフ",
   "easyplacefixplus.ui.gate.easy_place_off": "修正がオフ",
   "easyplacefixplus.ui.status.litematica_off": "Litematica 側で Easy Place がオフです — このモッドはそのクリックを直すだけなので、今は何もすることがありません",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Litematica の Easy Place でのブロック設置を修正します。ハーフブロック、階段、原木、レール、ダブルチェスト、レバーは、スキーマティックに示された状態で設置され、誤った設置はスキップされます。",
-  "modmenu.summaryTranslation.easyplacefixplus": "Litematica の Easy Place でのブロック設置を修正します。ハーフブロック、階段、原木、レール、ダブルチェスト、レバーは、スキーマティックに示された状態で設置され、誤った設置はスキップされます。"
+  "modmenu.descriptionTranslation.easyplacefixplus": "LitematicaのEasy Placeの誤った設置を修正し、機能を拡張します — チート要素なし。ブロックは設計図どおりに置かれます:ハーフブロック、階段、原木、レール、ラージチェスト、レバー。誤って置かれるものはスキップし、設置だけで済まないものは手持ちの道具のワンクリックで仕上げます。",
+  "modmenu.summaryTranslation.easyplacefixplus": "Easy Placeの誤った設置を修正 — チート要素なし。"
 }

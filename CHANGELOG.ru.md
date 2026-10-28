@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.22+26.3 — 26.10.2026
+## 1.0.22+26.2 — 26.10.2026
 
 **RU**
 
@@ -17,6 +17,25 @@
 **fix — Easy Place did not place string.** A string cell was silently skipped in survival and creative. String is placed like a normal block now.
 
 **new — Easy Place lights fire.** Fire and soul fire from the schematic are placed with flint and steel (without one, with a fire charge): the mod clicks the block under the cell with it, as a player would. Soul fire comes by itself when soul soil or soul sand is below.
+
+## 1.0.21+26.2 — порт на Minecraft 26.2 (25.10.2026)
+
+**RU**
+
+Тот же 1.0.21, собранный под 26.2 (Litematica 0.28.8, malilib 0.29.6) — дерево `litematica-easy-place-fix-plus-26.2`.
+На 26.2 до этого была только 1.0.6. Код — дерево 26.3 (= выложенная 1.0.21); описание и переводы — из выложенного jar 1.0.21.
+Отличия API 26.2 перенесены из Material HUD 26.2 трёхсторонним слиянием по таблице имён (скрипт
+`~/projects/_port-1.21.11-26.2/epf262/merge.py`): `Interactive`, `SoilDig`, `SignEditor` + `MixinClientPacketListenerSign`,
+`StateFix`, `EntityPlace`, `SchematicEntities`, `ToolTables` (вариант 26.2 — аксессоры `IMixinShovelItem/HoeItem/AxeItem`,
+добавлены в `easyplacefixplus.mixins.json`); `aell-ui` берёт замены из `../aell-ui-26.2`.
+
+Проверено: байткод `core` и `mixin/easyplace` против Material HUD 1.0.21+26.2 — отличия «EPF+ против MHUD» те же, что у
+выложенных 1.0.21+26.3 (`bytecmp2.py`); харнесс Material HUD 26.2 с этим jar в `run/mods` (копия стенда
+`Beta FIX/_port-mhud-stand-26.2`): `h` 89/0, `light` OK, `f` 156/0, `j` 168/0; снимки настроек в трёх стилях (`EPF_SHOTS=1`).
+
+**EN**
+
+The same 1.0.21 built for Minecraft 26.2 (Litematica 0.28.8, malilib 0.29.6). Until now 26.2 only had 1.0.6.
 
 ## 1.0.21+26.3 — 24.10.2026
 

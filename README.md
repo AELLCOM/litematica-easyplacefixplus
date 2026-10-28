@@ -4,7 +4,7 @@ Fixes block placement in Litematica's Easy Place: slabs, stairs, logs, rails, do
 
 [Modrinth](https://modrinth.com/mod/easyplacefixplus) · [CurseForge](https://www.curseforge.com/minecraft/mc-mods/litematica-easyplacefixplus) · [Discord](https://discord.gg/jTU2yawThv)
 
-This branch (`main`) is the source of **1.0.22+26.3** for **Minecraft 26.3** (Fabric).
+This branch (`mc/26.2`) is the source of **1.0.22+26.2** for **Minecraft 26.2** (Fabric).
 Branches: `main` (26.3), `mc/26.2` (26.2), `mc/1.21.11` (1.21.11). Release notes: [CHANGELOG.md](CHANGELOG.md).
 
 ## Building

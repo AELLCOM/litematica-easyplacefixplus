@@ -3,7 +3,7 @@
 	"id": "easyplacefixplus",
 	"version": "${version}",
 	"name": "Litematica EasyPlaceFixPlus",
-	"description": "Fixes block placement in Litematica's Easy Place: slabs, stairs, logs, rails, double chests and levers are placed in the state shown in the schematic, wrong placements are skipped.",
+	"description": "Fixes wrong block placement in Litematica's Easy Place and extends it — no cheat options. Blocks land exactly as the schematic drew them: slabs, stairs, logs, rails, double chests, levers. What would land wrong is skipped; what placing alone can't finish is done with one click of a tool you carry. Litematica does the placing — this mod only corrects the click.",
 	"authors": [
 		"Aell_"
 	],

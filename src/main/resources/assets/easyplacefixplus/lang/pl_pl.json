@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "„Nie kopać niepotrzebnego” wyłączone",
   "easyplacefixplus.ui.gate.easy_place_off": "poprawka wyłączona",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place jest wyłączony w samej Litematice — ten mod tylko poprawia jej kliknięcia, więc nie ma jeszcze co robić",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Naprawia stawianie bloków w Easy Place z Litematica: płyty, schody, pnie, tory, podwójne skrzynie i dźwignie są stawiane w stanie pokazanym w schemacie, błędne postawienia są pomijane.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Naprawia stawianie bloków w Easy Place z Litematica: płyty, schody, pnie, tory, podwójne skrzynie i dźwignie są stawiane w stanie pokazanym w schemacie, błędne postawienia są pomijane."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Naprawia błędne stawianie bloków w Easy Place z Litematiki i rozszerza jego możliwości — bez opcji cheatowych. Bloki stają dokładnie jak na schemacie: płyty, schody, kłody, tory, podwójne skrzynie, dźwignie. Co stanęłoby źle — jest pomijane; czego nie da się postawić kliknięciem — dokańcza narzędzie z ekwipunku.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Naprawia błędne stawianie bloków w Easy Place — bez opcji cheatowych."
 }

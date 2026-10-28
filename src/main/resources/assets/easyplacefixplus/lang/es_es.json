@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "«No picar lo que no toca» está desactivado",
   "easyplacefixplus.ui.gate.easy_place_off": "la corrección está desactivada",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place está desactivado en la propia Litematica: este mod solo corrige sus clics, así que de momento no hay nada que hacer",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Corrige la colocación de bloques de Easy Place de Litematica: losas, escaleras, troncos, rieles, cofres dobles y palancas se colocan en el estado mostrado en el esquema, y las colocaciones incorrectas se omiten.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Corrige la colocación de bloques de Easy Place de Litematica: losas, escaleras, troncos, rieles, cofres dobles y palancas se colocan en el estado mostrado en el esquema, y las colocaciones incorrectas se omiten."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Corrige la colocación incorrecta de bloques en Easy Place de Litematica y lo amplía — sin opciones de trampa. Los bloques quedan exactamente como en el esquema: losas, escaleras, troncos, raíles, cofres dobles, palancas. Lo que quedaría mal se omite; lo que no se logra colocando se termina con un clic de una herramienta del inventario.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Corrige la colocación incorrecta de bloques en Easy Place — sin opciones de trampa."
 }

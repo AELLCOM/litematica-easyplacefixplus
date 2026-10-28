@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "「不挖不该挖的」已关闭",
   "easyplacefixplus.ui.gate.easy_place_off": "修正已关闭",
   "easyplacefixplus.ui.status.litematica_off": "Litematica 中的 Easy Place 已关闭 — 本模组只负责修正它的点击，所以暂时无事可做",
-  "modmenu.descriptionTranslation.easyplacefixplus": "修复 Litematica 的 Easy Place 放置方块的问题：台阶、楼梯、原木、铁轨、大箱子和拉杆会按照投影中显示的状态放置，错误的放置会被跳过。",
-  "modmenu.summaryTranslation.easyplacefixplus": "修复 Litematica 的 Easy Place 放置方块的问题：台阶、楼梯、原木、铁轨、大箱子和拉杆会按照投影中显示的状态放置，错误的放置会被跳过。"
+  "modmenu.descriptionTranslation.easyplacefixplus": "修复 Litematica Easy Place 的错误放置并扩展其功能——无作弊选项。方块严格按蓝图落位:台阶、楼梯、原木、铁轨、大型箱子、拉杆。会放错的直接跳过;放置解决不了的,用背包里的工具一键补齐。",
+  "modmenu.summaryTranslation.easyplacefixplus": "修复 Easy Place 的错误放置——无作弊选项。"
 }

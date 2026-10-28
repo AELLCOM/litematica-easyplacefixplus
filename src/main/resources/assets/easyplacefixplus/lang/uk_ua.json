@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "«Не копати зайвого» вимкнено",
   "easyplacefixplus.ui.gate.easy_place_off": "виправлення вимкнено",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place вимкнено в самій Litematica — мод лише виправляє її кліки, тому робити поки нічого",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Виправляє встановлення блоків в Easy Place з Litematica: плити, сходинки, колоди, рейки, подвійні скрині та важелі ставляться так, як показано в схемі, хибні встановлення пропускаються.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Виправляє встановлення блоків в Easy Place з Litematica: плити, сходинки, колоди, рейки, подвійні скрині та важелі ставляться так, як показано в схемі, хибні встановлення пропускаються."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Фіксить неправильне встановлення блоків у Easy Place з Litematica й розширює його можливості — без читерських опцій. Блоки стають рівно як у схемі: плити, сходи, колоди, рейки, подвійні скрині, важелі. Що стане неправильно — пропускається, що не ставиться кліком — доводиться інструментом з інвентаря.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Фіксить неправильне встановлення блоків у Easy Place — без читерських опцій."
 }

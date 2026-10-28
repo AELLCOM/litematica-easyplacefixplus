@@ -122,6 +122,6 @@
   "easyplacefixplus.ui.gate.dig_guard_off": "„Nichts Falsches abbauen“ ist aus",
   "easyplacefixplus.ui.gate.easy_place_off": "Korrektur ist aus",
   "easyplacefixplus.ui.status.litematica_off": "Easy Place ist in Litematica ausgeschaltet — diese Mod korrigiert nur dessen Klicks, es gibt also noch nichts zu tun",
-  "modmenu.descriptionTranslation.easyplacefixplus": "Korrigiert das Platzieren von Blöcken in Litematicas Easy Place: Stufen, Treppen, Baumstämme, Schienen, Doppeltruhen und Hebel werden so gesetzt, wie sie im Schematic stehen; falsche Platzierungen werden übersprungen.",
-  "modmenu.summaryTranslation.easyplacefixplus": "Korrigiert das Platzieren von Blöcken in Litematicas Easy Place: Stufen, Treppen, Baumstämme, Schienen, Doppeltruhen und Hebel werden so gesetzt, wie sie im Schematic stehen; falsche Platzierungen werden übersprungen."
+  "modmenu.descriptionTranslation.easyplacefixplus": "Behebt falsche Blockplatzierung in Litematicas Easy Place und erweitert es — ohne Cheat-Optionen. Blöcke landen exakt wie in der Schematik gezeichnet: Stufen, Treppen, Stämme, Schienen, Doppelkisten, Hebel. Was falsch landen würde, wird übersprungen; was Platzieren allein nicht schafft, erledigt ein Klick mit dem Werkzeug im Inventar.",
+  "modmenu.summaryTranslation.easyplacefixplus": "Behebt falsche Blockplatzierung in Litematicas Easy Place — ohne Cheat-Optionen."
 }
