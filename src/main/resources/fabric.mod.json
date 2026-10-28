@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "easyplacefixplus",
+	"version": "${version}",
+	"name": "Litematica EasyPlaceFixPlus",
+	"description": "Fixes block placement in Litematica's Easy Place: slabs, stairs, logs, rails, double chests and levers are placed in the state shown in the schematic, wrong placements are skipped.",
+	"authors": [
+		"Aell_"
+	],
+	"contact": {
+		"discord": "https://discord.gg/jTU2yawThv"
+	},
+	"license": "MIT",
+	"icon": "assets/easyplacefixplus/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.aell.easyplacefixplus.EasyPlaceClient"
+		],
+		"modmenu": [
+			"com.aell.easyplacefixplus.compat.ModMenuImpl"
+		]
+	},
+	"mixins": [
+		{
+			"config": "easyplacefixplus.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*",
+		"malilib": "*",
+		"litematica": "*"
+	}
+}

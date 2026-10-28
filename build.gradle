@@ -1,0 +1,76 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.terraformersmc.com/releases' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    compileOnly files("libs/malilib-fabric-${project.minecraft_version}-${project.malilib_version}.jar")
+    compileOnly files("libs/litematica-fabric-${project.minecraft_version}-${project.litematica_version}.jar")
+
+    compileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
+}
+
+processResources {
+    inputs.property 'version', project.version
+    inputs.property 'minecraft_version', project.minecraft_version
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version, 'minecraft_version': project.minecraft_version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+def sharedUiRoot = file("${rootDir}/aell-ui/src/main/java")
+def shadedUiPackage = 'com.aell.easyplacefixplus.shaded.ui'
+def shadedUiPath = shadedUiPackage.replace('.', '/')
+
+tasks.register('generateSharedUi', Copy) {
+    if (! sharedUiRoot.isDirectory()) {
+        throw new GradleException("aell-ui not found at ${sharedUiRoot}; keep the Beta FIX folder intact")
+    }
+
+    from(sharedUiRoot) { include 'com/aell/ui/**/*.java' }
+    into layout.buildDirectory.dir('generated/shared-ui')
+    includeEmptyDirs = false
+    eachFile { it.path = it.path.replace('com/aell/ui', shadedUiPath) }
+    filter { line -> line.replace('com.aell.ui', shadedUiPackage) }
+    inputs.property('shadedUiPackage', shadedUiPackage)
+}
+
+sourceSets.main.java.srcDir(layout.buildDirectory.dir('generated/shared-ui'))
+tasks.named('compileJava') { dependsOn tasks.named('generateSharedUi') }
+
+// Дымовой прогон: ./gradlew runClient -PsmokeWorld=<имя сейва> — клиент сам заходит в этот мир
+// (аргумент запуска --quickPlaySingleplayer), чтобы миксины, которые применяются только при
+// входе в мир, проверялись без рук.
+loom {
+    runs {
+        client {
+            if (project.hasProperty('smokeWorld')) {
+                programArgs '--quickPlaySingleplayer', project.property('smokeWorld')
+            }
+        }
+    }
+}
