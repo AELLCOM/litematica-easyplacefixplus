@@ -16,7 +16,7 @@ Minecraft 26.3, 26.2, 1.21.11
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 1.21.11 · Fabric Loader · Fabric API · malilib · Litematica · Java 21
 
 ## 1.0.21 — 2026-10-24
 
@@ -27,7 +27,7 @@ Minecraft 26.3, 26.2, 1.21.11
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 1.21.11 · Fabric Loader · Fabric API · malilib 0.27.20 · Litematica 0.26.16 · Java 21
 
 ## 1.0.20 — 2026-10-22
 
@@ -39,21 +39,26 @@ Minecraft 26.3, 1.21.11
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 1.21.11 · Fabric Loader · Fabric API · malilib 0.27.20 · Litematica 0.26.16 · Java 21
 
 ## 1.0.19 — 2026-10-13
 
 Minecraft 26.3, 1.21.11
 
-#### Change: no chat messages by default
-**Chat messages** is now off by default, and it is turned off once for everyone who had the old default. Turn it back on in the settings if you want the chat reports; it stays on after that. The guard toggle keys still confirm every press with a short line above the hotbar.
+The first Easy Place Fix+ for Minecraft 1.21.11: the same mod as the 26.3 version, ported to Minecraft 1.21.11 and Litematica 0.26.
 
-#### Fixes
-- fix — **With Material HUD installed, the "blocks with item data" fix could depend on which mod loaded first.** Both mods had helper methods with the same names, and only one set was kept. They no longer clash.
+#### What you get
+- **Every click of Litematica's Easy Place is corrected before it is sent**: slabs, stairs with their corners, logs and pillars, blocks that face somewhere, buttons and levers, doors and gates, rails, double chests, candles and sea pickles by count, flowers and grass, signs with their text.
+- **Finishing with a tool you carry**: lighting candles and campfires, water from a bucket, opening doors, scraping and waxing copper, farmland and paths, stripping logs, filling shelves and bookshelves.
+- **Corner stairs connect the right way**, whichever of the two equivalent ways the schematic stored them.
+- **Guards**: "Block placing off the schematic" and "Do not dig the wrong thing" with its three parts (outside the schematic, correctly placed, only in Easy Place mode), with toggle keys (not bound by default).
+- **Blocks with a name, description or server plugin tag** are found in the inventory and taken into your hand.
+- **Give up on cells the server refuses**, a speed slider and two options for strict servers.
+- Chat messages are off by default; guard toggle keys answer with a line above the hotbar.
 
 #### 📦 You need
 
-Minecraft 26.3 · Fabric Loader · Fabric API · malilib · Litematica · Java 25
+Minecraft 1.21.11 · Fabric Loader · Fabric API · malilib 0.27.20 · Litematica 0.26.16 · Java 21
 
 ## 1.0.18 — 2026-10-13
 

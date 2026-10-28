@@ -166,6 +166,6 @@ public final class StrictGuard
                 ? Component.translatable("easyplacefixplus.message.strict_empty", stack.getHoverName())
                 : Component.translatable("easyplacefixplus.message.strict_other", stack.getHoverName(),
                         schematic.getBlock().getName());
-        Minecraft.getInstance().gui.hud.setOverlayMessage(text.copy().withColor(0xE0902E), false);
+        Minecraft.getInstance().gui.setOverlayMessage(text.copy().withColor(0xE0902E), false);
     }
 }

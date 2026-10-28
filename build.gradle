@@ -1,5 +1,5 @@
 plugins {
-    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'fabric-loom' version "${loom_version}"
 }
 
 version = project.mod_version
@@ -11,18 +11,21 @@ base {
 
 repositories {
     mavenCentral()
+    maven { url = 'https://maven.fabricmc.net/' }
     maven { url = 'https://maven.terraformersmc.com/releases' }
 }
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    // 1.21.11 ещё обфусцирована: имена Mojang через маппинги, моды — через mod*-конфигурации (перемаппинг)
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-    compileOnly files("libs/malilib-fabric-${project.minecraft_version}-${project.malilib_version}.jar")
-    compileOnly files("libs/litematica-fabric-${project.minecraft_version}-${project.litematica_version}.jar")
+    modCompileOnly files("libs/malilib-fabric-${project.minecraft_version}-${project.malilib_version}.jar")
+    modCompileOnly files("libs/litematica-fabric-${project.minecraft_version}-${project.litematica_version}.jar")
 
-    compileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
+    modCompileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {
@@ -34,24 +37,30 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 25
+    it.options.release = 21
+    it.options.compilerArgs += ['-Xmaxerrs', '5000']
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_25
-    targetCompatibility = JavaVersion.VERSION_25
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 def sharedUiRoot = file("${rootDir}/aell-ui/src/main/java")
+// 1.21.11: файлы aell-ui, которые под 1.21.11 отличаются, лежат в aell-ui-1.21.11 и заменяют общие
+def sharedUiOverrides = file("${rootDir}/aell-ui-1.21.11/src/main/java")
 def shadedUiPackage = 'com.aell.easyplacefixplus.shaded.ui'
 def shadedUiPath = shadedUiPackage.replace('.', '/')
 
 tasks.register('generateSharedUi', Copy) {
     if (! sharedUiRoot.isDirectory()) {
-        throw new GradleException("aell-ui not found at ${sharedUiRoot}; keep the Beta FIX folder intact")
+        throw new GradleException("aell-ui not found at ${sharedUiRoot}; it ships inside this repository")
     }
 
-    from(sharedUiRoot) { include 'com/aell/ui/**/*.java' }
+    def overridden = fileTree(sharedUiOverrides).matching { include 'com/aell/ui/**/*.java' }.files
+            .collect { sharedUiOverrides.toPath().relativize(it.toPath()).toString().replace('\\', '/') }
+    from(sharedUiRoot) { include 'com/aell/ui/**/*.java'; exclude overridden }
+    from(sharedUiOverrides) { include 'com/aell/ui/**/*.java' }
     into layout.buildDirectory.dir('generated/shared-ui')
     includeEmptyDirs = false
     eachFile { it.path = it.path.replace('com/aell/ui', shadedUiPath) }

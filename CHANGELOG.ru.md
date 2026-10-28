@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.22+26.3 — 26.10.2026
+## 1.0.22+1.21.11 — 26.10.2026
 
 **RU**
 
@@ -18,7 +18,7 @@
 
 **new — Easy Place lights fire.** Fire and soul fire from the schematic are placed with flint and steel (without one, with a fire charge): the mod clicks the block under the cell with it, as a player would. Soul fire comes by itself when soul soil or soul sand is below.
 
-## 1.0.21+26.3 — 24.10.2026
+## 1.0.21+1.21.11 — 24.10.2026
 
 **RU**
 
@@ -28,7 +28,8 @@
 
 **fix — Easy Place did not place the invisible Light block.** A Light block has no outline unless the item is in hand, so the aim went straight through the hologram and no click happened at all. The light cell is now found, and the Light item of exactly the right level is taken (it used to place level 15 instead of 7). With no item of that level in the inventory the cell is skipped instead of getting a wrong level. In creative the right level is picked by itself.
 
-## 1.0.20+26.3 — 22.10.2026
+
+## 1.0.20+1.21.11 — 22.10.2026
 
 **RU**
 

@@ -65,6 +65,6 @@ public final class Chat
             return;
         }
 
-        mc.player.sendSystemMessage(text(PREFIX, BRAND).append(body));
+        mc.player.displayClientMessage(text(PREFIX, BRAND).append(body), false);
     }
 }

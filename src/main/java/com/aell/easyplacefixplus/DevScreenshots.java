@@ -46,7 +46,7 @@ public final class DevScreenshots
             {
                 before = FixConfigs.UI_STYLE.getIntegerValue();
                 FixConfigs.UI_STYLE.setIntegerValue(0);
-                mc.gui.setScreen(GuiFixConfigs.create(null, null));
+                mc.setScreen(GuiFixConfigs.create(null, null));
             }
             case 1 -> shot(mc, "settings-aell");
             case 2 -> FixConfigs.UI_STYLE.setIntegerValue(1);
@@ -64,7 +64,7 @@ public final class DevScreenshots
 
     private static void shot(Minecraft mc, String name)
     {
-        Screenshot.grab(mc, false);
+        Screenshot.grab(mc.gameDirectory, mc.getMainRenderTarget(), message -> {});
         System.out.println("[easyplacefixplus] screenshot: " + name);
     }
 }
